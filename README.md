@@ -5,9 +5,10 @@ TrueType fonts its examples and tests use, the `.stream` file PDFjet makes from
 each of them, and the metrics of the 14 standard PDF fonts in `Core`.
 
 This repository is the `fonts` directory of
-[edragoev1/pdfjet](https://github.com/edragoev1/pdfjet), where it is a git
-submodule. Clone PDFjet with `git clone --recurse-submodules`, or run
-`git submodule update --init` in a clone, to get it there.
+[edragoev1/pdfjet](https://github.com/edragoev1/pdfjet), at the commit that
+`fonts-and-data.txt` of PDFjet pins. PDFjet's build, run and test scripts
+fetch it there the first time they run, and `get-fonts-and-data.sh` does it
+alone.
 
 ## Licenses
 
