@@ -4,8 +4,8 @@ The fonts of [PDFjet](https://github.com/edragoev1/pdfjet): the TrueType fonts
 its examples and tests use, which PDFjet embeds as subsets of the glyphs a
 document draws, and the metrics of the 14 standard PDF fonts in `Core`. IBM
 Plex Sans is also here as `.otf`, a font with CFF outlines for the tests,
-which PDFjet embeds whole. Since PDFjet 9.0.5 there are no `.stream` files:
-PDFjet still reads them, and its font tool still makes them.
+which PDFjet embeds whole. Since PDFjet 9.0.5 there are no `.stream` files,
+and PDFjet reads `.ttf` and `.otf` fonts alone.
 
 This repository is the `fonts` directory of
 [edragoev1/pdfjet](https://github.com/edragoev1/pdfjet), at the commit that
