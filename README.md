@@ -4,8 +4,9 @@ The fonts of [PDFjet](https://github.com/edragoev1/pdfjet): the TrueType fonts
 its examples and tests use, which PDFjet embeds as subsets of the glyphs a
 document draws, and the metrics of the 14 standard PDF fonts in `Core`. IBM
 Plex Sans is also here as `.otf`, a font with CFF outlines for the tests,
-which PDFjet embeds whole. Since PDFjet 9.0.5 there are no `.stream` files,
-and PDFjet reads `.ttf` and `.otf` fonts alone.
+and Source Han Sans JP Regular as `.otf`, a CID-keyed font with CFF outlines,
+for the tests of the CFF subsets. Since PDFjet 9.0.5 there are no `.stream`
+files, and PDFjet reads `.ttf` and `.otf` fonts alone.
 
 This repository is the `fonts` directory of
 [edragoev1/pdfjet](https://github.com/edragoev1/pdfjet), at the commit that
@@ -42,4 +43,5 @@ Every font keeps its own license, in the file next to it.
 | `NotoSansSymbols` | `OFL.txt` | SIL Open Font License 1.1 |
 | `NotoSansTC` | `OFL.txt` | SIL Open Font License 1.1 |
 | `NotoSansThai` | `OFL.txt` | SIL Open Font License 1.1 |
+| `SourceHanSansJP` | `LICENSE.txt` | SIL Open Font License 1.1 |
 | `SourceSerif4` | `OFL.txt` | SIL Open Font License 1.1 |
