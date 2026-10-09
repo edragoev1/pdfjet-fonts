@@ -4,7 +4,10 @@ The fonts of [PDFjet](https://github.com/edragoev1/pdfjet): the TrueType fonts
 its examples and tests use, which PDFjet embeds as subsets of the glyphs a
 document draws, and the metrics of the 14 standard PDF fonts in `Core`. IBM
 Plex Sans is also here as `.otf`, a font with CFF outlines, which PDFjet
-subsets as well, and `Test` has Source Han Sans JP Regular, a CID-keyed font
+subsets as well; so are the Regular of IBM Plex Sans SC, TC, JP and KR, the
+hinted `.otf` of the same IBM release as their `.ttf`, as a document of
+Chinese, Japanese or Korean draws hundreds of glyphs, whose CFF outlines
+are smaller (Examples 02 and 04: about a quarter smaller PDFs); and `Test` has Source Han Sans JP Regular, a CID-keyed font
 with CFF outlines, for the tests. Since PDFjet 9.0.5 there are no `.stream`
 files, and PDFjet reads `.ttf` and `.otf` fonts alone.
 
